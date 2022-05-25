@@ -15,4 +15,4 @@ An Android APP called News
 ![avatar](http://120.48.25.213:8080/img/News-2.png)
 
 # 项目展示
-![avatar](http://120.48.25.213:8080/img/News-3.png)
+![avatar](http://120.48.25.213:8080/img/News-3.jpg)
