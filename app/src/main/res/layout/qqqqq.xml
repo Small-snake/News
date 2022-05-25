@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/avatar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rainbow"
+        android:layout_gravity="center"
+        android:layout_marginTop="66dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/usersname1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="qqqq"
+        android:textSize="50dp"
+        android:layout_gravity="center">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/usesid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123132"
+        android:textSize="20dp"
+        android:layout_gravity="center">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/Homepagebutton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#CBECFB"
+        android:text="注销登录"
+        android:textSize="30sp">
+
+    </Button>
+
+
+</LinearLayout>

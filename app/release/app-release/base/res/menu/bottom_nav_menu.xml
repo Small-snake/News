@@ -1,0 +1,25 @@
+
+å	
+;
+android*http://schemas.android.com/apk/res/androidmenu*ö
+íitem"o
+*http://schemas.android.com/apk/res/androidid@+id/navigation_home"(Ğ„2
+Ç‚ øid/navigation_home0"‚
+*http://schemas.android.com/apk/res/androidicon@drawable/ic_home_black_24dp"(‚€„2'
+%ë€œødrawable/ic_home_black_24dp0"o
+*http://schemas.android.com/apk/res/androidtitle@string/title_home"(áƒ„2
+”Àøstring/title_home0*ˆ
+ÿitem"y
+*http://schemas.android.com/apk/res/androidid@+id/navigation_dashboard"	(Ğ„2#
+!Å‚ øid/navigation_dashboard0"Š
+*http://schemas.android.com/apk/res/androidicon @drawable/ic_baseline_article_24"	(‚€„2+
+)è€œødrawable/ic_baseline_article_240"o
+*http://schemas.android.com/apk/res/androidtitle@string/title_news"	(áƒ„2
+•Àøstring/title_news0	*›
+’item"
+*http://schemas.android.com/apk/res/androidid@+id/navigation_notifications"(Ğ„2'
+%È‚ øid/navigation_notifications0"
+*http://schemas.android.com/apk/res/androidicon#@drawable/ic_baseline_camera_alt_24"(‚€„2.
+,é€œø"drawable/ic_baseline_camera_alt_240"s
+*http://schemas.android.com/apk/res/androidtitle@string/title_camera"(áƒ„2
+“Àøstring/title_camera0

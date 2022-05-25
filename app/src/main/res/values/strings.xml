@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="unequal_password">"Password must be equal"</string>
+    <string name="exist_account">"Account already exists"</string>
+    <string name="account_error">"Account not exist"</string>
+    <string name="password_error">"Password not correct"</string>
+    <string name="title_activity_three_button">ThreeButton</string>
+    <string name="title_home">主页</string>
+    <string name="title_news">新闻</string>
+    <string name="title_camera">随手拍</string>
+
+    <string name="title_activity_button">ButtonActivity</string>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.camera.CameraFragment"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/camera_title"
+        android:hint="请输入标题"
+        android:layout_marginTop="0dp"
+        >
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/camera_describe"
+        android:hint="请输入问题描述"
+        android:layout_marginTop="5dp"
+        >
+    </EditText>
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:id="@+id/camera_image"
+        android:src="@drawable/choose_pictures"
+        android:layout_marginTop="5dp"
+        >
+    </ImageButton>
+
+    <RadioGroup
+        android:id="@+id/camera_problem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+        <RadioButton
+            android:id="@+id/radioButton_aq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:text="安全隐患" />
+        <RadioButton
+            android:id="@+id/radioButton_ws"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:text="卫生问题" />
+        <RadioButton
+            android:id="@+id/radioButton_zx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:text="秩序问题">
+        </RadioButton>
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:id="@+id/camera_importance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginLeft="70dp"
+        >
+        <RadioButton
+            android:id="@+id/radioButton_zy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="重要" />
+        <RadioButton
+            android:id="@+id/radioButton_yb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="一般" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/camera_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:text="获取定位"
+        >
+    </Button>
+
+
+    <Button
+        android:id="@+id/camera_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonstyle"
+        android:text="上传"
+        >
+    </Button>
+
+
+</LinearLayout>

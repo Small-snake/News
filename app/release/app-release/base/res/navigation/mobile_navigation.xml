@@ -1,0 +1,29 @@
+
+
+;
+android*http://schemas.android.com/apk/res/android
+4
+app'http://schemas.android.com/apk/res-auto
+navigation"s
+*http://schemas.android.com/apk/res/androidid@+id/mobile_navigation"(Ğ„2 
+›‚ øid/mobile_navigation0"{
+'http://schemas.android.com/apk/res-autostartDestination@+id/navigation_home"(ô†Œø2
+Ç‚ øid/navigation_home0*Õ
+Ìfragment"o
+*http://schemas.android.com/apk/res/androidid@+id/navigation_home"(Ğ„2
+Ç‚ øid/navigation_home0"^
+*http://schemas.android.com/apk/res/androidname%com.example.test.ui.home.HomeFragment(ƒ€„"o
+*http://schemas.android.com/apk/res/androidlabel@string/title_home"(€„2
+”Àøstring/title_home0*ß
+Öfragment"y
+*http://schemas.android.com/apk/res/androidid@+id/navigation_dashboard"(Ğ„2#
+!Å‚ øid/navigation_dashboard0"^
+*http://schemas.android.com/apk/res/androidname%com.example.test.ui.news.NewsFragment(ƒ€„"o
+*http://schemas.android.com/apk/res/androidlabel@string/title_news"(€„2
+•Àøstring/title_news0*ğ
+çfragment"
+*http://schemas.android.com/apk/res/androidid@+id/navigation_notifications"(Ğ„2'
+%È‚ øid/navigation_notifications0"b
+*http://schemas.android.com/apk/res/androidname)com.example.test.ui.camera.CameraFragment(ƒ€„"s
+*http://schemas.android.com/apk/res/androidlabel@string/title_camera"(€„2
+“Àøstring/title_camera0
